@@ -1,0 +1,31 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "A basic introduction to Node.JS, taken from Brad Travery's YouTube video 'Node.js Crash Course'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesmartinreed/node-crash-course.git"
+  },
+  "keywords": [
+    "javascript",
+    "web",
+    "development",
+    "node.js"
+  ],
+  "author": "Charles Martin Reed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesmartinreed/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/charlesmartinreed/node-crash-course#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
