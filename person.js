@@ -1,14 +1,11 @@
-const person = {
-	name: 'Charles Reed',
-	age: 32
-}
+// const person = {
+// 	name: 'Charles Reed',
+// 	age: 32
+// }
 
-//modules are not called directly, but rather are accessed via node.js's Module Wrapper Function
+//module wrapper function
+//(function (exports, require, module, __filename, __dirname))
 
-//function (exports, require, module, __filename, __dirname) {
-
-//})
-console.log(__dirname, __filename);
 
 class Person {
 	constructor(name, age) {
@@ -17,9 +14,8 @@ class Person {
 	}
 
 	greeting() {
-		console.log(`My name is ${this.name} and I am ${this.age} years old`);
+		console.log(`Hi! My name is ${this.name}! \nThough I may look young for my age, I assure you that I am actually ${this.age} years old!`);
 	}
 }
 
-//module.exports = person;
 module.exports = Person;
